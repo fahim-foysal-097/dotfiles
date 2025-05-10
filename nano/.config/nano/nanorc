@@ -1,0 +1,26 @@
+## Display line numbers to the left (and any anchors in the margin).
+set linenumbers
+
+
+## Paint the interface elements of nano.  These are examples; there are
+## no colors by default, except for errorcolor and spotlightcolor.
+set titlecolor bold,white,magenta
+set promptcolor lightwhite,grey
+set statuscolor bold,black,blue
+set errorcolor bold,white,red
+set spotlightcolor black,lightyellow
+set selectedcolor lightwhite,#804
+set stripecolor ,#444
+set scrollercolor slate,#222
+set numbercolor magenta
+set keycolor cyan
+set functioncolor magenta
+
+
+## === Syntax coloring ===
+## For all details, see 'man nanorc', section SYNTAX HIGHLIGHTING.
+
+## To include most of the existing syntax definitions, you can do:
+include /usr/share/nano/*.nanorc
+
+
