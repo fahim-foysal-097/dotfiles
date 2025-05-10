@@ -71,7 +71,7 @@
         },
         {
           "label": "󰍃",
-          "command": "swaymsg exit"
+          "command": "hyprctl dispatch exit"
         },
         {
           "label": "󰆴",
@@ -98,6 +98,10 @@
         {
           "label": "",
           "command": "kooha"
+        },
+        {
+          "label": "",
+          "command": "bash ~/.config/hypr/scripts/clipboard.sh"
         }
       ]
     }

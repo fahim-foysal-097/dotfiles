@@ -14,7 +14,7 @@ pacman -S stow git
 
 ## Installation
 
-#### Clone the repo in you `$HOME` diectory.
+#### Clone the repo in your `$HOME` diectory.
 
 ```bash
 $ git clone https://github.com/dreamsofautonomy/dotfiles.git
