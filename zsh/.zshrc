@@ -41,6 +41,8 @@ zinit cdreplay -q # cache things - recommended
 bindkey -e
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
+bindkey '\e[H' beginning-of-line   # HOME key
+bindkey '\e[F' end-of-line         # END key
 
 # History
 HISTSIZE=10000
