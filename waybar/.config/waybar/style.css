@@ -1,8 +1,8 @@
 @import "mocha.css"; 
 
 * {
-    font-family: "MesloLGS Nerd Font Mono Bold";
-    font-size: 16px;
+    font-family: "MesloLGS Nerd Font";
+    font-size: 14px;
     min-height: 0;
     font-weight: bold;
 }
@@ -76,8 +76,8 @@ button:hover {
 }
 
 #clock {
-    color: @red;
-    border-bottom: 2px solid @red;
+    color: @blue;
+    border-bottom: 2px solid @blue;
 }
 
 #clock.date {
@@ -86,8 +86,8 @@ button:hover {
 }
 
 #pulseaudio {
-    color: @blue;
-    border-bottom: 2px solid @blue;
+    color: @sky;
+    border-bottom: 2px solid @sky;
 }
 
 #network {
@@ -130,7 +130,6 @@ button:hover {
   margin-left: 6px;
   margin-right: 6px;
   color: @red;
-  font-size: 20px;
   padding-right: 6px;
 }
 

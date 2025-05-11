@@ -5,12 +5,12 @@
   "modules-right": ["cpu", "memory", "tray", "network", "pulseaudio", "clock", "custom/notification", "custom/power"],
 
   "clock": {
-    "format": "<span foreground='#f5c2e7'>   </span>{:%B %d %I:%M}",
+    "format": "<span foreground='#89b4fa'>  </span>{:%B %d %I:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
 
   "pulseaudio": {
-    "format": "{icon}  {volume}%",
+    "format": "{icon} {volume}%",
     "format-muted": "",
     "format-icons": {
       "default": ["", "", " "]
@@ -35,9 +35,9 @@
   },
 
   "network": {
-    "format-wifi": "󰤢 {bandwidthDownBits}",
-    "format-ethernet": "󰈀 {bandwidthDownBits}",
-    "format-disconnected": "󰤠 No Network",
+    "format-wifi": "󰤢  {bandwidthDownBits}",
+    "format-ethernet": "󰈀  {bandwidthDownBits}",
+    "format-disconnected": "󰤠  No Network",
     "interval": 5,
     "tooltip": false
   },
