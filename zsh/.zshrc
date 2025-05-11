@@ -43,6 +43,7 @@ bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 bindkey '\e[H' beginning-of-line   # HOME key
 bindkey '\e[F' end-of-line         # END key
+bindkey "^[[3~" delete-char        # Del key
 
 # History
 HISTSIZE=10000
@@ -74,6 +75,7 @@ alias e='exit'
 alias parupg='paru -Syu'
 alias pareps='paru -Ss'
 alias parin='paru -S'
+
 # Shell integrations
 eval "$(fzf --zsh)" # fzf fuzzy finder
 
