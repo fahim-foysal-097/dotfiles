@@ -26,7 +26,7 @@ $ cd dotfiles
 To apply all configs:
 
 ```bash
-stow .
+stow */
 ```
 
 To apply a specific configuration package:

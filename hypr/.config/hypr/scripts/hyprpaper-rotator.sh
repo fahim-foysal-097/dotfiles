@@ -1,3 +1,6 @@
+##### NOT IN USE #####
+
+
 ### Random Wallpaper Changer
 
 #!/bin/bash

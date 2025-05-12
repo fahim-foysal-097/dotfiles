@@ -11,7 +11,7 @@
 @define-color bg-selected rgb(0, 128, 255);
 
 * {
-  font-family: MesloLGM Nerd Font;
+  font-family: MesloLGM Nerd Font Mono;
 }
 
 .control-center .notification-row:focus,
@@ -265,7 +265,8 @@
 }
 
 .widget-buttons-grid {
-  font-size: x-large;
+  /* font-size: x-large; */
+  font-size: 30px;
   padding: 5px;
   margin: 10px 10px 5px 10px;
   border-radius: 0px;

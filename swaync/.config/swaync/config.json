@@ -43,11 +43,7 @@
     },
     "mpris": {
       "image-size": 100,
-      "image-radius": 0,
-      "blacklist": [
-        "kew",
-        "firefox"
-      ]
+      "image-radius": 0
     },
     "volume": {
       "label": "󰕾"
@@ -102,6 +98,10 @@
         {
           "label": "",
           "command": "bash ~/.config/hypr/scripts/clipboard.sh"
+        },
+        {
+          "label": "",
+          "command": "waypaper"
         }
       ]
     }

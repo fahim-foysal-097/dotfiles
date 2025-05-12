@@ -1,3 +1,6 @@
+##### NOT IN USE #####
+
+
 ### Change wallpaper using Hyprpaper
 
 #!/usr/bin/env bash

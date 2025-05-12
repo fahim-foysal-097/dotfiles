@@ -1,0 +1,9 @@
+
+\.git
+\.gitignore
+\.gitmodules
+
+\assets
+
+README.md
+^/README.md
