@@ -41,9 +41,20 @@ stow <pkg_name>
 
 ## Screenshots
 
+#### Waybar
+![waybar0](assets/waybar-0.png)
 ![waybar](assets/waybar.png)
+
+#### Notification center (swaync)
+![notification](assets/notification.png)
 ![notification-center](assets/notification-center.png)
+
+#### Vim
 ![vim](assets/vim.png)
+
+#### zsh
+![fs-zsh](assets/fastfetch-zsh.png)
+
+#### Powermenu & Clipboard
 ![powermenu](assets/powermenu.png)
 ![clipboard](assets/clippboard.png)
-![notification](assets/notification.png)
