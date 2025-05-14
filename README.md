@@ -3,6 +3,9 @@
 
 This repo contains dotfiles for my system.
 
+![sceenshot](assets/screen.png)
+
+
 ## Requirements
 
 Make sure you have stow & git installed.
@@ -34,3 +37,13 @@ To apply a specific configuration package:
 ```bash
 stow <pkg_name>
 ```
+
+
+## Screenshots
+
+![waybar](assets/waybar.png)
+![notification-center](assets/notification-center.png)
+![vim](assets/vim.png)
+![powermenu](assets/powermenu.png)
+![clipboard](assets/clippboard.png)
+![notification](assets/notification.png)
