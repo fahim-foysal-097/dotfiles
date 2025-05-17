@@ -105,5 +105,11 @@
         }
       ]
     }
+  },
+  "scripts": {
+    "sound-script": {
+      "exec": "bash ~/.config/swaync/notification-sound.sh",
+      "app-name": ".*"
+    }
   }
 }
