@@ -41,6 +41,9 @@ stow <pkg_name>
 
 ## Screenshots
 
+#### Locksreen (Hyprlock)
+![lock](assets/lock.png)
+
 #### Waybar
 ![waybar0](assets/waybar-0.png)
 ![waybar](assets/waybar.png)
