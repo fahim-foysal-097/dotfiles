@@ -21,6 +21,7 @@ PS1='[\u@\h \W]\$ '
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(oh-my-posh init bash --config $(brew --prefix oh-my-posh)/themes/pure.omp.json)"
+export PATH="$HOME/development/flutter/bin:$PATH"
 
 # Others
 

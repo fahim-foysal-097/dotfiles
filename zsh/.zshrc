@@ -4,9 +4,10 @@
 ##################
 
 
+export PATH="$HOME/development/flutter/bin:$PATH"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
-#eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/pure.omp.json)"
+# eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/pure.omp.json)"
 
 # Set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
@@ -79,7 +80,9 @@ alias parin='paru -S'
 # Shell integrations
 eval "$(fzf --zsh)" # fzf fuzzy finder
 
-# Others
-fastfetch
 
+# Run fastfetch only if not inside VS Code terminal
+if [[ "$TERM_PROGRAM" != "vscode" ]]; then
+    fastfetch
+fi
  
