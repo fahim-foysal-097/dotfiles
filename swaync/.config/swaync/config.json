@@ -101,7 +101,7 @@
         },
         {
           "label": "",
-          "command": "waypaper"
+          "command": "sh -c 'swaync-client --close-panel & waypaper'"
         }
       ]
     }

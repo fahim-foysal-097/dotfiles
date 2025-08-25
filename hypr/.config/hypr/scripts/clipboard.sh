@@ -31,6 +31,5 @@ elif [[ -n "$selection" ]]; then
     id=$(echo "$selection" | awk '{print $1}')
     # Decode and copy the selected item to the clipboard
     cliphist decode "$id" | wl-copy
-    notify-send "Copied to clipboard."
 fi
 

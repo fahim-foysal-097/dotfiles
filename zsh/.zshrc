@@ -85,4 +85,4 @@ eval "$(fzf --zsh)" # fzf fuzzy finder
 if [[ "$TERM_PROGRAM" != "vscode" ]]; then
     fastfetch
 fi
- 
+
