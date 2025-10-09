@@ -4,7 +4,7 @@
 ##################
 
 
-export PATH="$HOME/development/flutter/bin:$PATH"
+# export PATH="$HOME/development/flutter/bin:$PATH"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
 # eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/pure.omp.json)"
