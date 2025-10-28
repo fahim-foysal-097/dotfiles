@@ -46,6 +46,10 @@ stow <pkg_name>
 ![waybar0](assets/waybar-0.png)
 ![waybar](assets/waybar.png)
 
+#### VSCode
+
+![waybar](assets/vscode.png)
+
 #### Notification center (swaync)
 
 ![notification](assets/notification.png)
