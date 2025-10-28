@@ -1,0 +1,69 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "cmake.options.statusBarVisibility": "visible",
+  "editor.mouseWheelZoom": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "accessibility.signals.format": {
+    "sound": "always"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "material-icon-theme.folders.theme": "specific",
+  "redhat.telemetry.enabled": false,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.formatOnSave": true,
+  "animations.Install-Method": "Apc Customize UI++",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.settings.applyToAllProfiles": ["editor.fontSize"],
+  "workbench.preferredDarkColorTheme": "Ayu Dark",
+  "workbench.colorTheme": "Ayu Dark",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Consolas, 'Courier New', monospace, FiraCode Nerd Font, MesloLGM Nerd Font",
+  "dart.flutterSdkPath": "/home/fahim/development/flutter",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false
+  },
+  "editor.wordWrap": "on",
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "glassit-linux.opacity": 85,
+
+  // custom
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.startupEditor": "none",
+  "workbench.editor.empty.hint": "hidden",
+  "explorer.compactFolders": false,
+  "editor.fontSize": 24,
+  "markdown.preview.fontSize": 20,
+  "terminal.integrated.fontSize": 16,
+  "window.zoomLevel": 0.5,
+  "editor.lineHeight": 2.1,
+  "editor.stickyScroll.enabled": false,
+  "editor.guides.indentation": false,
+  "editor.matchBrackets": "near",
+  "editor.tabCompletion": "on",
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": "off",
+
+  "custom-ui-style.stylesheet": {
+    ".quick-input-widget": "top: 25vh !important",
+    ".editor-widget.find-widget": "border-radius: 4px",
+    ".quick-input-widget.show-file-icons": "box-shadow: none !important",
+    ".sidebar .title-label": "padding: 0 !important",
+    ".sidebar": "border: none !important",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+    ".monaco-list-row.focused": "outline: none !important"
+  }
+}
