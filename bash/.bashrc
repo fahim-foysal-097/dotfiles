@@ -5,6 +5,10 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# export PATH=$PATH:/home/fahim/.local/bin
+# eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+
+
 # Aliases
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
@@ -19,9 +23,6 @@ alias parin='paru -S'
 
 PS1='[\u@\h \W]\$ '
 
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-eval "$(oh-my-posh init bash --config $(brew --prefix oh-my-posh)/themes/pure.omp.json)"
-export PATH="$HOME/development/flutter/bin:$PATH"
 
 # Others
 

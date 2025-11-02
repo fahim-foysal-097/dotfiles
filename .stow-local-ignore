@@ -4,6 +4,8 @@
 \.gitmodules
 
 \assets
+/assets
+^assets/
 
 README.md
 ^/README.md
