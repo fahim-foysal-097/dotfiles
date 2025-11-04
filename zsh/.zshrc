@@ -11,7 +11,7 @@
 # export PATH="$PATH:$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/tools/bin"
 
 # Others
-export PATH=$PATH:/home/fahim/.local/bin
+export PATH=$PATH:$HOME/.local/bin
 
 
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
