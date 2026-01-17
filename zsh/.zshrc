@@ -3,12 +3,19 @@
 ### ZSH CONFIG ###
 ##################
 
+# Flutter
+export PATH="$HOME/dev/flutter/bin:$PATH"
+
 # Android SDK
-# export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
-# export ANDROID_HOME="$ANDROID_SDK_ROOT"
+export ANDROID_SDK_ROOT="$HOME/Android/Sdk"
+export ANDROID_HOME="$ANDROID_SDK_ROOT"
 
 # SDK tools
-# export PATH="$PATH:$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/tools/bin"
+export PATH="$PATH:$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/tools/bin"
+
+# Java (From Android Studio)
+export JAVA_HOME=/opt/android-studio/jbr
+export PATH=$JAVA_HOME/bin:$PATH
 
 # Others
 export PATH=$PATH:$HOME/.local/bin
